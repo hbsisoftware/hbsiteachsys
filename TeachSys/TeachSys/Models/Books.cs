@@ -26,5 +26,6 @@ namespace TeachSys.Models
         public string LastTime { get; set; }
         public string DisabledTime { get; set; }
         public int Status { get; set; }
+        public int PublisherID { get; set; }
     }
 }

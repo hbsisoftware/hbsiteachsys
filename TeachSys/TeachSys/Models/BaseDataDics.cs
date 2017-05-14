@@ -12,14 +12,12 @@ namespace TeachSys.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Courses
+    public partial class BaseDataDics
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public int Nums { get; set; }
-        public int MajorID { get; set; }
-        public string Term { get; set; }
-        public string Memo { get; set; }
-        public int Status { get; set; }
+        public Nullable<int> IndexNo { get; set; }
+        public int TypeNo { get; set; }
+        public Nullable<int> Status { get; set; }
     }
 }
